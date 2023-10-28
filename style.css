@@ -1,0 +1,69 @@
+@import 'utilities.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606;
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font:antialiased
+}
+header {
+    background: var(--dark);
+    clip-path: polygon();
+}
+
+.container {
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto ;
+}
+header nav .left a {
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover {
+    color: var(--primary);
+}
+body {
+    font-family:"poppins" , "arial";
+}
+header nav {
+    padding: 2rem 0;
+}
+brand {
+    margin-right: 3rem;
+}
+.hero .left img {
+    width: 400px;
+}
+.hero .right {
+    color: var(--pure)
+}
+.hero .right h6 {
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+.hero .right h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+}
+.hero .right h1 span {
+    color: var(--primary);
+}
+.hero .right p {
+    line-height: 1.9rem;
+    margin-bottom: 2rem;
+}
+.hero .right {
+    margin-bottom: -7rem;
+}
